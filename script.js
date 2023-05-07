@@ -8,8 +8,7 @@ headerBar.addEventListener("click", function () {
   let burgerLines = document.querySelectorAll(".burger-line");
   let burgerWraper = document.querySelector(".burger-wraper");
   let headerNav = document.querySelector(".navigation");
-  let headerBtns = document.querySelector(".header-buttons")
-
+  let headerBtns = document.querySelector(".header-buttons");
 
   divOverlay.classList.toggle("visible");
   headerWraper.classList.toggle("visible");
@@ -19,4 +18,5 @@ headerBar.addEventListener("click", function () {
   burgerWraper.classList.toggle("visible");
   headerNav.classList.toggle("hidden");
   headerBtns.classList.toggle("hidden");
+  document.body.style.overflow = "hidden";
 });

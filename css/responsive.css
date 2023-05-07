@@ -6,6 +6,8 @@
         display: none;
     }
     .burger-wraper {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
 }
