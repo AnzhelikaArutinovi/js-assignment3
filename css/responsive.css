@@ -1,0 +1,11 @@
+@media (max-width: 950px) {
+    .navigation {
+        display: none;
+    }
+    .header-buttons {
+        display: none;
+    }
+    .burger-wraper {
+        display: flex;
+    }
+}
